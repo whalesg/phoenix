@@ -1,0 +1,52 @@
+.customers-table {
+  width: 100%;
+
+  &-username {
+    display: flex;
+    align-items: center;
+
+    &-left {
+      width: 40px;
+      height: 40px;
+      margin-right: 10px;
+    }
+
+    &-right {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    &-avatar {
+      width: 40px;
+      height: 40px;
+      border-radius: 4px;
+      background: gray;
+    }
+
+    &-email {
+      color: gray;      
+    }
+  }
+
+  &-transactions {
+    color: red;
+  }
+
+  &-status {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: lightgray;
+    border-radius: 4px;
+    padding: 3px 12px;
+
+    .active, .inactive {
+      width: 15px;
+      height: 15px;
+      margin-left: 10px;
+      border-radius: 50%;
+      background: green;
+    }
+  }
+}

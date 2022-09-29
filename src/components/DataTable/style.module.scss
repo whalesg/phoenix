@@ -1,0 +1,28 @@
+.table {
+  font-weight: bold;
+  background: white;
+
+  tr {
+    height: 70px;
+    border: 1px solid gray;
+  }
+
+  &-head {
+    color: gray;
+  }
+
+  &-body {
+
+    .cell {
+      padding: 8px 12px;
+    }
+  }
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
